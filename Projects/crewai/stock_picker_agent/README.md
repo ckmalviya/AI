@@ -1,6 +1,6 @@
-# CrewaiStockPickerAgent Crew
+# StockPickerAgent Crew
 
-Welcome to the CrewaiStockPickerAgent Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the StockPickerAgent Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -22,10 +22,10 @@ crewai install
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
 
-- Modify `src/crewai_stock_picker_agent/config/agents.yaml` to define your agents
-- Modify `src/crewai_stock_picker_agent/config/tasks.yaml` to define your tasks
-- Modify `src/crewai_stock_picker_agent/crew.py` to add your own logic, tools and specific args
-- Modify `src/crewai_stock_picker_agent/main.py` to add custom inputs for your agents and tasks
+- Modify `src/stock_picker_agent/config/agents.yaml` to define your agents
+- Modify `src/stock_picker_agent/config/tasks.yaml` to define your tasks
+- Modify `src/stock_picker_agent/crew.py` to add your own logic, tools and specific args
+- Modify `src/stock_picker_agent/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
 

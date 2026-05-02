@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from crewai_stock_picker_agent.crew import CrewaiStockPickerAgent
+from stock_picker_agent.crew import StockPickerAgent
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -23,7 +23,7 @@ def run():
     }
 
     try:
-        result = CrewaiStockPickerAgent().crew().kickoff(inputs=inputs)
+        result = StockPickerAgent().crew().kickoff(inputs=inputs)
 
         print("========== Stock Picker Result: ==========")
         print(result)

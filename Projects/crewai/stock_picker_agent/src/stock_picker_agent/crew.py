@@ -33,8 +33,8 @@ class TrendingCompanyResearchList(BaseModel):
 
 
 @CrewBase
-class CrewaiStockPickerAgent():
-    """CrewaiStockPickerAgent crew"""
+class StockPickerAgent():
+    """StockPickerAgent crew"""
 
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
